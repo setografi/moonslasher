@@ -8,6 +8,7 @@ export default {
         orangeTextBar: "#FFC12F",
         whiteTextBar: "#FFFFFF",
         blackBarTwo: "#3D3C4F",
+        toolbarBlack: "#282938",
       },
     },
   },
