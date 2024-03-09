@@ -10,6 +10,11 @@ export default {
         blackBarTwo: "#3D3C4F",
         toolbarBlack: "#282938",
       },
+
+      fontFamily: {
+        samsungSharp: ["Samsung Sharp Sans", "sans-serif"],
+        sfPro: ["SF Pro Text", "sans-serif"],
+      },
     },
   },
   plugins: [],

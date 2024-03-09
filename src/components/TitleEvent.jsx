@@ -6,18 +6,20 @@ import RightTextThree from "../assets/Process_Bullet.png";
 export default function TitleEvent() {
   return (
     <>
-      <div className="relative overflow-hidden">
-        <div className="relative overflow-hidden top-[85px] -left-10 z-10 flex flex-row justify-end items-center gap-8">
-          <div className="w-[233.7px] h-[736.34px]">
-            <img src={RightTextOne} alt="" />
+      <div>
+        <div className="relative z-10 flex flex-row justify-end items-center gap-9">
+          <div className="relative top-16">
+            <img className="w-full h-full" src={RightTextOne} alt="" />
           </div>
 
-          <div className="w-[167px] h-[773px]">
-            <img src={RightTextTwo} alt="" />
-          </div>
+          <div className="relative top-20 mr-10">
+            <div>
+              <img className="w-full h-full" src={RightTextTwo} alt="" />
+            </div>
 
-          <div className="absolute top-[208px] left-[1160px] w-full ">
-            <img src={RightTextThree} alt="" />
+            <div className="absolute top-[208px] -left-4">
+              <img className="w-full h-full" src={RightTextThree} alt="" />
+            </div>
           </div>
         </div>
       </div>

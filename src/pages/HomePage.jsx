@@ -4,17 +4,15 @@ import RotateText from "../components/RotateText";
 
 import BackgroundImage from "../assets/Background_Image.png";
 import TitleEvent from "../components/TitleEvent";
+import ToolBarEvent from "../components/ToolBarEvent";
 
 function HomePage() {
   return (
     <>
-      <div>
-        <img
-          className="absolute -top-[24px] left-[130px] z-10"
-          src={BackgroundImage}
-          alt=""
-        />
+      <div className="absolute left-[130px] z-10">
+        <img className="w-full h-auto" src={BackgroundImage} alt="" />
       </div>
+      <ToolBarEvent />
       <HeaderEvent />
       <RotateText />
       <TitleEvent />

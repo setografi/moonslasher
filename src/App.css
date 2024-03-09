@@ -1,3 +1,5 @@
+@import url("https://fonts.cdnfonts.com/css/samsung-sharp-sans");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,4 +8,25 @@
 
 body {
   background-color: #ffc12f;
+}
+
+@font-face {
+  font-family: SF-Pro-Text;
+  src: url(../public/font/SF-Pro-Text/SF-Pro-Text-Regular.otf);
+}
+
+/*=============== SCROLLBAR CUSTOM ===============*/
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: #282938;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background-color: #11101a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3d3c4f;
 }
