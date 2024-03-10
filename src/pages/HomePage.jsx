@@ -9,8 +9,12 @@ import ToolBarEvent from "../components/ToolBarEvent";
 function HomePage() {
   return (
     <>
-      <div className="absolute left-[130px] z-10">
-        <img className="w-full h-auto" src={BackgroundImage} alt="" />
+      <div className="absolute top-0 lg:left-36 z-10">
+        <img
+          className="w-[30rem] md:w-[54rem] h-[35.2rem] md:h-full object-cover md:object-none"
+          src={BackgroundImage}
+          alt=""
+        />
       </div>
       <ToolBarEvent />
       <HeaderEvent />

@@ -11,8 +11,9 @@ body {
 }
 
 @font-face {
-  font-family: SF-Pro-Text;
-  src: url(../public/font/SF-Pro-Text/SF-Pro-Text-Regular.otf);
+  font-family: "SF Pro Text";
+  font-weight: 700;
+  src: url("/font/SF-Pro-Text-Bold.otf") format("opentype");
 }
 
 /*=============== SCROLLBAR CUSTOM ===============*/
