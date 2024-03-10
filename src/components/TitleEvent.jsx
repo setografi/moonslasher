@@ -8,7 +8,7 @@ export default function TitleEvent() {
     <>
       <div>
         <div className="relative left-0 z-10 flex flex-row justify-end items-center gap-2 md:gap-4 lg:gap-9">
-          <div className="relative top-[17.5rem] md:top-[19rem] lg:top-16">
+          <div className="relative top-96 md:top-[19rem] lg:top-16">
             <img
               className="w-auto h-64 md:h-[26rem] lg:h-[46rem]"
               src={RightTextOne}
@@ -16,7 +16,7 @@ export default function TitleEvent() {
             />
           </div>
 
-          <div className="relative top-60 md:top-5 lg:top-20 mr-3 md:mr-9 lg:mr-10">
+          <div className="relative top-80 md:top-5 lg:top-20 mr-3 md:mr-9 lg:mr-10">
             <div>
               <img
                 className="w-auto h-72 md:h-[28rem] lg:h-[48rem]"
