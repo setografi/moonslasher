@@ -11,7 +11,7 @@ function HomePage() {
     <>
       <div className="absolute top-0 lg:left-36 z-10">
         <img
-          className="w-[30rem] md:w-[54rem] h-[41.7rem] md:h-full object-cover md:object-none"
+          className="w-[30rem] md:w-[54rem] h-screen md:h-full object-cover md:object-none"
           src={BackgroundImage}
           alt=""
         />
